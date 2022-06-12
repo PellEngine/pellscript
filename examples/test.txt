@@ -1,0 +1,6 @@
+fn testfunction() {
+  // my cool test comment
+  int asd := 10 + 20;
+}
+
+testfunction();
