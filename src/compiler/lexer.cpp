@@ -12,7 +12,7 @@ char Lexer::peek(int n) {
   if(position == code.length()) {
     return '\0';
   } else {
-    return code.c_str()[position];
+    return code.c_str()[position + n];
   }
 }
 

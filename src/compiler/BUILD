@@ -7,8 +7,11 @@ load("@rules_cc//cc:defs.bzl", "cc_binary")
 cc_binary(
   name = "pellscript",
   srcs = [
-    "main.cpp",
+    "ast_nodes.h",
     "lexer.cpp",
     "lexer.h",
+    "main.cpp",
+    "parser.cpp",
+    "parser.h",
   ],
 )

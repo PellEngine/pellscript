@@ -2,11 +2,11 @@
   "configurations": [
     {
       "name": "Win32",
-      "includePath": [],
       "cStandard": "c17",
       "cppStandard": "c++17",
       "intelliSenseMode": "clang-x64",
-      "compileCommands": "${workspaceFolder}/compile_commands.json"
+      "compileCommands": "${workspaceFolder}/compile_commands.json",
+      "compilerPath": "c:/msys64/mingw64/bin/gcc"
     }
   ],
   "version": 4

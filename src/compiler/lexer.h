@@ -1,5 +1,5 @@
-#ifndef _COMPILER_LEXER_H_
-#define _COMPILER_LEXER_H_
+#ifndef _PELLSCRIPT_COMPILER_LEXER_H_
+#define _PELLSCRIPT_COMPILER_LEXER_H_
 
 #include <string>
 #include <vector>
